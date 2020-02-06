@@ -14,5 +14,9 @@ $Overzicht = [
 
 
 
-echo "Het totaalbedrag an ale albums is " . array_sum($Overzicht) . "\n";
-echo "De Gemiddelde prijs van alle alle albums is" . array_sum($Overzicht) / count($Overzicht) . "\n";
+foreach ($Overzicht as $key => $value) {
+    echo $key . $value . PHP_EOL;
+}
+
+echo "Het totaalbedrag an ale albums is" . array_sum($Overzicht) . "\n";
+echo "De gemiddelde prijs van alle albums is" . array_sum($Overzicht) / count($Overzicht) . "\n";
