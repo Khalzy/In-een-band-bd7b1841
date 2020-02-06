@@ -3,10 +3,10 @@
 
 $Overzicht = [
 
-    "Citizen of Glass kost" => 4.5,
-    "Night kost " => 9,
-    "New Eyes kost " => 5,
-    "Strange Trails kost" =>  10,
+    "Citizen of Glass kost €" => 4.5,
+    "Night kost €" => 9,
+    "New Eyes kost €" => 5,
+    "Strange Trails kost €" =>  10,
 
 
 
