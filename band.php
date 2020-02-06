@@ -15,4 +15,4 @@ $Overzicht = [
 
 
 echo "Het totaalbedrag an ale albums is " . array_sum($Overzicht) . "\n";
-echo "De Gemiddelde prijs van alle alle albums is " . array_sum($Overzicht) / count($Overzicht) . "\n";
+echo "De Gemiddelde prijs van alle alle albums is" . array_sum($Overzicht) / count($Overzicht) . "\n";
